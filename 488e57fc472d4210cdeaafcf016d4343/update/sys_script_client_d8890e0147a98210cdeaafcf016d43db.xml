@@ -4,7 +4,7 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>description</field>
+        <field>short_description</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
@@ -16,10 +16,8 @@
     }
 
     // Generate an alert showing the new value and old value
-    alert('Old value: ' + oldValue);
-    alert('New value: ' + newValue);
-
-//     alert('You have changed description from ' + oldValue + " to " + newValue + ' .');
+   
+ alert(' Short Description has been changed:\n\nFrom: ' + oldValue + '\nTo: ' + newValue);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -27,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d8890e0147a98210cdeaafcf016d43db</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>NeedIt onChange Example</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_1120037_needit">488e57fc472d4210cdeaafcf016d4343</sys_package>
@@ -35,7 +33,7 @@
         <sys_scope display_value="NeedIt">488e57fc472d4210cdeaafcf016d4343</sys_scope>
         <sys_update_name>sys_script_client_d8890e0147a98210cdeaafcf016d43db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-12 21:00:45</sys_updated_on>
+        <sys_updated_on>2024-04-15 17:33:47</sys_updated_on>
         <table>x_1120037_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
